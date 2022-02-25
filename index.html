@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ejemplo de Bootstrap</title>
+  <!--PARA CREAR UN SITIO WEB RESPONSIVO-->
+  <!--BOOSTRAP tiene propiedades de CSS y JavaScript-->
+  <meta charset="utf-8">
+  <!--Para que reconozca el archivo css para los estilos-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!--1111111111111111111111111111111111111111111111111111111111111111111111111111111111111-->
+  <!--Para utilizar boostrap es necesario estos tres enlaces-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--222222222222222222222----------222222222222222222----------------------->
+<!--Se agrega la clase container para que se agregue un margen  a los costados-->
+<!--Tambien se agrega un padding a todos los elementos-->
+<div class="container">
+    <!--APLICACIONES-->
+    <section id="app">
+        <h1>Aplicaciones</h1>
+        <div class="line"></div>
+        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/gz-Ss7E68PpEmGW5HeXrsWPYYta2LmQw4dnL8WIea3I/embed"></iframe>
+        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/JLwIs1fPD2CZ4pmPBEfAB0rs5iWzF7lp9Nd3S9BEhmo/embed"></iframe>
+    </section>
+
+
+  <!--JUEGOS-->
+    <h2>Haz clic en los juegos para explorar</h2>
+
+    <h5>Estos se crearon en el laboratorio de juegos. Haz clic para jugar.</h5>
+   <!-----------------------3333333333333-------------------------------->
+   <!--Para mostrar los juegos como diapositivas pp6-->
+<!---->
+  <div id="myCarousel" class="carousel slide" >
+    <center>
+      <!-- Wrapper for slides -->
+      <!--------------54444444444444444444------------->
+      <!--Colocar dentro de etiquetas div para agrupar contenido-->
+
+      <!--carrousel-inner oculta todos los elementos dentro del carrusel-->
+      <div class="carousel-inner">
+
+        <!--item active indica que será el primero en mostrarse-->
+        <!--Se crea la clase item para agrupar -->
+        <div class="item">
+          <!-----------------------555555555555555----------------------->
+          <!--target es para que se abra el enlace en una nueva pestaña-->
+          <a href="https://studio.code.org/projects/gamelab/Sdt_OgR8VajkwZ9t45UeVtzMLGiyqhNFJexB9eCe480" target="_blank">
+            <img src="game1.png">
+          </a>
+          <!-------------------------666666666666666666-->
+          <!--Para que se muestre el título del juego-->
+          <p>Carrera de autos</p>
+        </div>
+
+          <div class="item">
+            <a href="https://studio.code.org/projects/gamelab/N25kriFEAiBTZwfbYpDjc_qryNjSBhYW-3fOuYRt_SI" target="_blank">
+              <img src="game2.png">
+            </a>
+              <p>En el espacio</p>
+            </div>
+    
+        </div>
+        <!--------------------777777777777777777------------------->
+        <!--Para controlar el movimiento de los items dentro del div de la clase "carrousel-inner" de -->
+        <!-- Left and right controls -->
+        <!--href para que sepa a que parte se va a referir cuando se de clic en siguiente-->
+        <!--data slide es para que sepa que tiene que ir a la siguietne o a la anterior dispositiva--> 
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <!--glyphicon es para agregar los iconos-->
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+
+      </center>
+    </div>
+
+</div>
+
+</body>
+</html>
